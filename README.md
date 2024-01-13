@@ -1,4 +1,4 @@
-# WiFi-SignalTesterOled
+# WiFi Signal Strength Tester
 
 WiFi Signal Strenght Tester based on the ESP8266 Mini board.
 

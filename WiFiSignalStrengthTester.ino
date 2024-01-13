@@ -1,7 +1,7 @@
 /**
- * @package WiFi Signal Tester with OLED display
+ * @package WiFi Signal Strenght Tester with OLED display
  * @author WizLab.it
- * @version 20240112.005
+ * @version 20240113.006
  */
 
 #include <Arduino.h>
@@ -10,7 +10,7 @@
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
-#include "WiFi-SignalTesterOled.h"
+#include "WiFiSignalStrengthTester.h"
 
 
 /**

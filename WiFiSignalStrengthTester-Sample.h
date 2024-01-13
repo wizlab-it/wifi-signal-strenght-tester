@@ -1,8 +1,8 @@
 /**
- * @package WiFi Signal Tester with OLED display
- * Configurations
+ * @package WiFi Signal Strenght Tester with OLED display
+ * Configurations Sample
  * @author WizLab.it
- * @version 20240112.002
+ * @version 20240113.003
  */
 
 /**
