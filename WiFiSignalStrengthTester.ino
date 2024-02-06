@@ -1,7 +1,7 @@
 /**
  * @package WiFi Signal Strenght Tester with OLED display
  * @author WizLab.it
- * @version 20240204.008
+ * @version 20240205.009
  */
 
 #include <Arduino.h>
@@ -162,10 +162,10 @@ String getPublicIPAddress() {
 uint8_t getSignalLevel() {
   long rssi = WiFi.RSSI();
   if(rssi > 0) return 0; //If RRSI is >0, then it's not connected
-  if(rssi > -55) return 5;
-  if(rssi > -65) return 4;
-  if(rssi > -75) return 3;
-  if(rssi > -80) return 2;
-  if(rssi > -85) return 1;
+  if(rssi > -63) return 5;
+  if(rssi > -69) return 4;
+  if(rssi > -73) return 3;
+  if(rssi > -76) return 2;
+  if(rssi > -80) return 1;
   return 0;
 }
